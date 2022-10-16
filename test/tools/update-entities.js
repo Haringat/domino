@@ -5,7 +5,7 @@ var path = require('path');
 
 /**
  * Process entities.json from the HTML5 spec into an array and regular
- * expression suitable for use in domino's HTMLParser.js implementation.
+ * expression suitable for use in domino's HTMLParser.mjs implementation.
  */
 var entities_json = process.argv[2];
 var entities = require(path.resolve(__dirname, entities_json));

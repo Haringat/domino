@@ -1,6 +1,5 @@
 {
-        "predef": [ "describe", "specify", "it" ],
-        "node": true,
+        "predef": [ "describe", "specify", "it", "globalThis" ],
         "bitwise": true,
         "eqeqeq": true,
         "freeze": true,
@@ -12,7 +11,8 @@
         "node": true,
         "nonew": true,
         "proto": true,
-        "strict": true,
+        "strict": false,
         "undef": true,
-        "unused": "vars"
+        "unused": "vars",
+        "esversion": 11
 }
